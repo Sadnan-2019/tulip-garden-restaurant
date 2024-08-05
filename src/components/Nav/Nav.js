@@ -15,7 +15,7 @@ const Nav = () => {
        window.scrollTo({ top: 3200, left: 0, behavior: "smooth" });
      };
      const active =
-       "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-blue-900  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-white    ";
+       "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-green-900  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-white    ";
    
      const normal =
        "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-blue-800   ";
