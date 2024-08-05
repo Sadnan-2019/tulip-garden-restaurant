@@ -23,7 +23,27 @@
       .slick-next:before {
         color: rgb(29, 7, 94);
       } */
-   
+      .slick-prev:before,
+      .slick-next:before {
+        /* -webkit-animation: flickerAnimation 0.5s infinite;
+          -moz-animation: flickerAnimation 0.5s infinite;
+          -o-animation: flickerAnimation 0.5s infinite;
+          animation: flickerAnimation 0.5s infinite; */
+        color: rgb(225, 222, 234);
+      }
+      
+      /* ////new button place on image  */
+      .slick-prev {
+        z-index: 100;
+      }
+      .slick-next {
+        /* z-index: 100; */
+        width: 100px;
+      }
+      
+      .slick-prev {
+        left: 10px;
+      }
    .landingone {
      background-image: linear-gradient(
          to left,
