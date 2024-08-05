@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Transition } from "@headlessui/react";
+import  logo from "../../assets/tulip.png"
 const Nav = () => {
      const [isOpen, setIsOpen] = useState(false);
 
@@ -94,7 +95,9 @@ const Nav = () => {
         <nav className="lg:bg-gray-100 shadow-lg border-l-gray-100 p-4" >
           <div className="container mx-auto flex justify-between items-center">
             <div className="text-blue-900 font-semibold text-xl">
-      sfnsfnkndsnnnnscnsdvm
+<a href='/' alt="">
+  <img src={logo} alt="" className='w-20'/>
+</a>
             </div>
             <div className="hidden md:flex space-x-4">
               {/* Add other sections here */}
@@ -133,7 +136,7 @@ const Nav = () => {
           </div>
 
           {/* Responsive Dropdown */}
-          {/* <Transition
+          <Transition
             show={isOpen}
             enter="transition-opacity duration-300"
             enterFrom="opacity-0"
@@ -155,7 +158,7 @@ const Nav = () => {
                 {navItem}
               </div>
             </div>
-          </Transition> */}
+          </Transition>
         </nav>
       </div> 
           </div>
