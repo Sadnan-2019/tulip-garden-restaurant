@@ -1,16 +1,19 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
+import Nav from "../Nav/Nav";
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
+  const [currentSlideThree, setCurrentSlideThree] = useState(0);
+
+  const sliderRef = useRef(null);
 
   var settings = {
-    dots: true,
     infinite: true,
-    speed: 250,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -18,13 +21,14 @@ const Landing = () => {
     afterChange: (index) => {
       setCurrentSlide(index);
       setCurrentSlideTwo(index);
+      setCurrentSlideThree(index);
     },
 
     // afternewChange: (index) => {
     //   setCurrentSlideTwo(index);
     // },
     autoplay: "true",
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
@@ -54,42 +58,51 @@ const Landing = () => {
   };
   return (
     <div>
-      <div className="  full-width-slider">
-        {/* <h2> Responsive </h2> */}
-        <Slider {...settings} className="">
-          <div className="  ">
-            <section className="landingone   blog      text-white">
-              <div className="  md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
-                {/* <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
-                  <h2
-                    style={{ lineHeight: "120%" }}
-                    className={`slide-text text-[25px] lg:text-[40px] font-bold   text-left   text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600   ${
-                      currentSlide === 0 ? "animated" : ""
-                    }`}
-                  >
-                    {" "}
-                  </h2>
-                </div> */}
-              </div>
-            </section>
-          </div>
-          <div className=" ">
-            <section className="landingtwo  blog h-auto       text-white">
-              <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
-                <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
-                  <h2
-                    style={{ lineHeight: "120%" }}
-                    className={`slide-text  text-[25px] lg:text-[40px] font-bold  text-left   text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
-                      currentSlide === 1 ? "animated" : ""
-                    }`}
-                  >
-                    {" "}
-                  </h2>
 
-                  <h1
-                    className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
-                    style={{ lineHeight: "120%", color: "white" }}
-                  ></h1>
+
+      <div className="full-width-slider">
+  
+        <Slider ref={sliderRef} {...settings} className="">
+          <div className=" ">
+            <section className="landingtwo  blog h-auto            ">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="flex w-full mx-auto text-left">
+                  <div class="  inline-flex items-center mx-auto align-middle">
+                    <div class="text-center">
+                      <h1
+                        style={{ lineHeight: "120%" }}
+                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-[40px] lg:max-w-7xl    text-transparent  text-white ${
+                          currentSlide === 0 ? "animated" : ""
+                        }`}
+                      >
+                        Map your route to success with us{" "}
+                        {/* <br class="hidden lg:block" /> */}
+                        {/* the assistance of our services. */}
+                      </h1>
+
+                      <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                        <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                          <button
+                            class={`bg-green-900 slide-text items-center block px-5 lg:px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                              currentSlideThree === 0 ? "animatedtext" : ""
+                            }`}
+                          >
+                            Explore More
+                          </button>
+                        </div>
+                        <div class="mt-3 rounded-lg sm:mt-0">
+                          <button
+                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                              currentSlideTwo === 0 ? "animatedpic" : ""
+                            }`}
+                            class=""
+                          >
+                            Get opportunities
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -98,81 +111,146 @@ const Landing = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <div
-                  data-aos="fade-down"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500"
+                <svg
+                  className=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1440 320"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 5000 2000"
-                  >
-                    <path
-                      fill="white"
-                      fill-opacity="0"
-                      d="M0,288L120,266.7C240,245,480,203,720,208C960,213,1200,267,1320,293.3L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-                    ></path>
-                  </svg>
-                </div>
+                  <path
+                    fill="white"
+                    fill-opacity="50"
+                    d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                  ></path>
+                </svg>
               </div>
             </section>
           </div>
-
           <div className=" ">
-            <section className="landingthree  blog h-auto       text-white">
-              <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
-                <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
-                  <h2
-                    style={{ lineHeight: "120%" }}
-                    className={`slide-text   text-[25px] lg:text-[40px] font-bold  text-left   text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
-                      currentSlide === 2 ? "animated" : ""
-                    }`}
-                  >
-                    {" "}
-                  </h2>
+            <section className="landingthree  blog h-auto        ">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl  ">
+                <div class="flex w-full mx-auto text-left">
+                  <div class="  inline-flex items-center mx-auto align-middle">
+                    <div class="text-center">
+                      <h1
+                        style={{ lineHeight: "120%" }}
+                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
+                          currentSlide === 1 ? "animated" : ""
+                        }`}
+                      >
+                        Offering comprehensive solutions
+                        <br class=" lg:block" />
+                        for international & national education needs.
+                      </h1>
 
-                  <h1
-                    className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
-                    style={{ lineHeight: "120%", color: "white" }}
-                  ></h1>
-
-                  {/* <div className="flex  gap-4 mt-10 text-center">
-                  <a
-                    href="/"
-                    className={`slide-text btn-sm p-1 lg:btn-md lg:p-2 rounded-full  lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                      currentSlideTwo === 2 ? "animatedpic" : ""
-                    }`}
-                  >
-                    MORE EXPLORE
-                    <BsArrowRight className="text-lg   lg:ml-2" />
-                  </a>
-                </div> */}
+                      <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                        <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                          <button
+                            class={`bg-blue-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                              currentSlideThree === 1 ? "animatedtext" : ""
+                            }`}
+                          >
+                            Explor More
+                          </button>
+                        </div>
+                        <div class="mt-3 rounded-lg sm:mt-0">
+                          <button
+                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                              currentSlideTwo === 1 ? "animatedpic" : ""
+                            }`}
+                            class=""
+                          >
+                            Get Opportunities
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
               <div
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <div
-                  data-aos="fade-down"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500"
+                <svg
+                  className=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1440 320"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 5000 2000"
-                  >
-                    <path
-                      fill="white"
-                      fill-opacity="0"
-                      d="M0,288L120,266.7C240,245,480,203,720,208C960,213,1200,267,1320,293.3L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-                    ></path>
-                  </svg>
-                </div>
+                  <path
+                    fill="white"
+                    fill-opacity="50"
+                    d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                  ></path>
+                </svg>
               </div>
             </section>
           </div>
+          <div className=" ">
+            <section className="landingone  blog h-auto        ">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl  ">
+                <div class="flex w-full mx-auto text-left">
+                  <div class="  inline-flex items-center mx-auto align-middle">
+                    <div class="text-center">
+                      <h1
+                        style={{ lineHeight: "120%" }}
+                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
+                          currentSlide === 2 ? "animated" : ""
+                        }`}
+                      >
+                        Eligibility,Admissions, Visa Processing,
+                        <br class=" lg:block" />
+                        Interview Prep, accommodation, all in one place.
+                      </h1>
+
+                      <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                        <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                          <button
+                            class={`bg-blue-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                              currentSlideThree === 2 ? "animatedtext" : ""
+                            }`}
+                          >
+                            Explor More
+                          </button>
+                        </div>
+                        <div class="mt-3 rounded-lg sm:mt-0">
+                          <button
+                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                              currentSlideTwo === 2 ? "animatedpic" : ""
+                            }`}
+                            class=""
+                          >
+                            Get Opportunities
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <svg
+                  className=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1440 320"
+                >
+                  <path
+                    fill="white"
+                    fill-opacity="50"
+                    d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                  ></path>
+                </svg>
+              </div>
+            </section>
+          </div>
+
+         
         </Slider>
       </div>
     </div>
