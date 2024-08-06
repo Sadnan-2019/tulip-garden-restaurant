@@ -50,7 +50,7 @@
          rgba(49, 16, 234, 0.01),
          rgba(0, 9, 10, 0.9)
        ),
-       url("../../assets/landingone.jpg");
+       url("../../assets/landingfive.jpg");
      width: 100%;
      height: 100vh;
    
@@ -70,7 +70,7 @@
            rgba(49, 16, 234, 0.01),
            rgba(0, 9, 10, 0.9)
          ),
-         url("../../assets/landingone.jpg");
+         url("../../assets/landingfive.jpg");
        height: 30vh;
    
        background-size: contain;
@@ -83,40 +83,38 @@
    }
    
    .landingtwo {
-     background-image: linear-gradient(
-         to left,
-         rgba(2, 1, 9, 0.01),
-         rgba(3, 3, 3, 0.9)
-       ),
-       url("../../assets/landingtwo.jpg");
-     /* background-repeat: no-repeat;
-            background-size: cover; */
-     height: auto;
-     width: 100%;
-     /* background-size: contain; */
-     background-size: cover;
-   
-     background-size: 100% 85%;
-   
-     background-repeat: no-repeat;
+    background-image: linear-gradient(
+      to left,
+      rgba(49, 16, 234, 0.01),
+      rgba(0, 9, 10, 0.9)
+    ),
+    url("../../assets/landingone.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: contain;
+  background-size: cover;
+
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
    }
    .landingthree {
-     background-image: linear-gradient(
-         to left,
-         rgba(193, 212, 192, 0.01),
-         rgba(9, 27, 29, 0.9)
-       ),
-       url("../../assets/landingone.jpg");
-     /* background-repeat: no-repeat;
-            background-size: cover; */
-     height: auto;
-     width: 100%;
-     /* background-size: contain; */
-     background-size: cover;
-   
-     background-size: 100% 85%;
-   
-     background-repeat: no-repeat;
+    background-image: linear-gradient(
+      to left,
+      rgba(49, 16, 234, 0.01),
+      rgba(0, 9, 10, 0.9)
+    ),
+    url("../../assets/landingthree.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: contain;
+  background-size: cover;
+
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
    }
    
    @keyframes fade-in {
