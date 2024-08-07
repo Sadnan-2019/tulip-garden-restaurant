@@ -1,0 +1,45 @@
+.floating { 
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+    animation-name: floating; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating-4 { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+}
+.text-darken {
+    color: #2F327D;
+}
+
+/* .video{
+    background-image: linear-gradient(
+        to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)
+      ),
+      url("../../assets/video.png");
+   
+    height: auto;
+    width: 100%;
+ 
+    background-size: cover;
+  
+    background-size: 100% 85%;
+  
+    background-repeat: no-repeat;
+
+} */
+ 
