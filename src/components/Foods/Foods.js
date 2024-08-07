@@ -15,7 +15,7 @@ const Foods = () => {
           <div>
                <div className=' '>
             <div class="   ">
-            <div class="partners-intro--thumb aos-init aos-animate   sm:grid-cols-1 lg:grid-cols-1 w-full bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D]  ">
+            <div class="partners-intro--thumb aos-init aos-animate   sm:grid-cols-1 lg:grid-cols-1 w-full bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]  ">
               <div class="partners-intro--partners">
                 <div class="partners-intro--partners-item -pos-1">
                   <img
