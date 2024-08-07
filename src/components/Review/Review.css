@@ -1,0 +1,43 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 0;
+  }
+  
+  .swiper-slide img {
+    /* height: 200px; */
+    width: 400px;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    /* height: 550px; */
+    width: auto;
+  }
+   
+  .review {
+    background-image: linear-gradient(
+        to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)
+      ),
+      url("../../assets/landingsix.jpg");
+    /* background-repeat: no-repeat;
+        background-size: cover; */
+    height: auto;
+    width: 100%;
+ 
+    /* background-size: contain; */
+    background-size: cover;
+  
+    background-size: 100% 100%;
+  
+    background-repeat: no-repeat;
+  }

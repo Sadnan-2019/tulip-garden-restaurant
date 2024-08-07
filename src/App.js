@@ -6,6 +6,7 @@ import Foods from './components/Foods/Foods';
 import FoodItem from './components/FoodItem/FoodItem';
 import Footer from './components/Footer/Footer';
 import Video from './components/Video/Video';
+import Review from './components/Review/Review';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <FoodItem></FoodItem>
         <Foods></Foods>
         <Video></Video>
+        <Review></Review>
        
         <Footer></Footer>
     </div>
