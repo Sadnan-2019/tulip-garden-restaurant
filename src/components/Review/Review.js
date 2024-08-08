@@ -16,7 +16,7 @@ import {
 const Review = () => {
     return (
         <div>
-            <div className="h-scren  mb-10  bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] ">
+            <div className="h-scren  mb-10    ">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -43,7 +43,7 @@ const Review = () => {
         <div className=" ">
           <SwiperSlide>
             <div class="container mx-auto p-10  px-4">
-              <div class="   inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex  rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div class="bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]   inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex  rounded-lg border shadow-lg pb-6 lg:pb-0">
                 <div class="w-full lg:w-1/3 lg:p-4">
                   <img
                     src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -70,7 +70,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div class="container mx-auto py-12 px-4">
-              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] rounded-lg border shadow-lg pb-6 lg:pb-0">
                 <div class="w-full lg:w-1/3 lg:p-4">
                   <img
                     src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -97,7 +97,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div class="container mx-auto py-12 px-4">
-              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] rounded-lg border shadow-lg pb-6 lg:pb-0">
                 <div class="w-full lg:w-1/3 lg:p-4">
                   <img
                     src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -124,7 +124,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div class="container mx-auto py-12 px-4">
-              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] rounded-lg border shadow-lg pb-6 lg:pb-0">
                 <div class="w-full lg:w-1/3 lg:p-4">
                   <img
                     src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -151,7 +151,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div class="container mx-auto py-12 px-4">
-              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-black rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div class="inline-grid max-w-xs sm:max-w-xs lg:max-w-lg lg:flex bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] rounded-lg border shadow-lg pb-6 lg:pb-0">
                 <div class="w-full lg:w-1/3 lg:p-4">
                   <img
                     src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
@@ -174,24 +174,7 @@ const Review = () => {
                   </div>
                 </div>
               </div>
-              {/* <div class="flex justify-center -mt-8 rounded-b-lg max-w-xs lg:max-w-lg lg:-mt-8 lg:justify-end lg:pr-8 py-1">
-              <button
-                type="button"
-                class="text-white py-3 px-4 rounded-lg bg-blue-500"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Primary action
-                </p>
-              </button>
-              <button
-                type="button"
-                class="py-3 px-4 bg-blue-500 rounded-lg ml-3 text-white"
-              >
-                <p class="work-sans font-semibold text-sm tracking-wide">
-                  Secondary action
-                </p>
-              </button>
-            </div> */}
+               
             </div>
           </SwiperSlide>
         </div>

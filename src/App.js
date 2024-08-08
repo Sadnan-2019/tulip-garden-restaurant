@@ -7,6 +7,8 @@ import FoodItem from './components/FoodItem/FoodItem';
 import Footer from './components/Footer/Footer';
 import Video from './components/Video/Video';
 import Review from './components/Review/Review';
+import Team from './components/Team/Team';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
         <FoodItem></FoodItem>
         <Foods></Foods>
         <Video></Video>
+        <Team></Team>
         <Review></Review>
-       
+       <Contact></Contact>
         <Footer></Footer>
     </div>
   );
