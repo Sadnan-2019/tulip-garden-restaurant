@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import food from "../../assets/food11.png"
 import food1 from "../../assets/food3.png"
 import food2 from "../../assets/tgrone.png"
@@ -10,11 +10,21 @@ import food7 from "../../assets/food9.png"
 import food8 from "../../assets/food10.png"
 import food9 from "../../assets/food12.png"
 import "./Foods.css"
+import useFetch from '../hooks/useFetch';
 const Foods = () => {
+
+
      return (
           <div>
                <div className=' '>
+        
+
+
+
+
             <div class="   ">
+              {/* food Menu tab  */}
+      
             <div class="partners-intro--thumb aos-init aos-animate   sm:grid-cols-1 lg:grid-cols-1 w-full bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]  ">
               <div class="partners-intro--partners">
                 <div class="partners-intro--partners-item -pos-1">

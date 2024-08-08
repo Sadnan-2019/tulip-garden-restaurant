@@ -3,9 +3,15 @@ import about1 from "../../assets/For_Signle_Image-removebg-preview.png"
 const Team = () => {
     return (
         <div>
-            <section class="w-full mx-auto py-10 bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] dark:text-white">
+            <section class="w-full mx-auto py-10 bg-gradient-to-r from-[#017445] via-[#020629] to-[#EF932A] dark:text-white">
         {/* <div class="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-blue-600 dark:border-b-2 dark:border-yellow-600">Services</div> */}
-
+        <h2
+            style={{ lineHeight: "120%" }}
+            className="animated slide-text text-[25px] lg:text-[40px] font-bold   text-center   text-white "
+          >
+            {" "}
+        OUR TEAM
+          </h2>
         <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto sm:flex md:flex lg:flex xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
           <div class="lg:w-[50%] xs:w-full">
             <img
