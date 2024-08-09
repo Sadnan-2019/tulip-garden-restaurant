@@ -15,12 +15,92 @@ const Foods = () => {
   return (
     <div>
       <div className=" ">
-        <div class="   ">
+        <div class="main bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]    ">
           {/* food Menu tab  */}
+          <div>
+            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+              <div className="card-body">
+                <form method="post">
+                  <div className="flex gap-3">
+                    <div className="form-control w-full max-w-xs">
+                      <label className="label">
+                        <span className="label-text">Email</span>
+                      </label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="your email"
+                        className="input input-bordered w-full max-w-xs"
+                      />
+                    </div>
 
-          <div class="partners-intro--thumb aos-init aos-animate   sm:grid-cols-1 lg:grid-cols-2 w-full bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]  ">
-             
-         
+                    <div className="form-control w-full max-w-xs">
+                      <label className="label">
+                        <span className="label-text">Name</span>
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="your name"
+                        className="input input-bordered w-full max-w-xs"
+                      />
+                    </div>
+                  </div>
+                  <div className="form-control w-full max-w-xs">
+                    <label className="label">
+                      <span className="label-text">Phone</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      required
+                      placeholder="your phone"
+                      className="input input-bordered w-full max-w-xs"
+                    />
+                  </div>
+                  <div className="form-control w-full max-w-xs">
+                    <label className="label">
+                      <span className="label-text">Subject</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="subject"
+                      id="subject"
+                      required
+                      placeholder="your subject"
+                      className="input input-bordered w-full max-w-xs"
+                    />
+                  </div>
+                  <div className="form-control w-full max-w-xs">
+                    <label className="label">
+                      <span className="label-text">Message</span>
+                    </label>
+                    <textarea
+                      type="text"
+                      name="message"
+                      id="message"
+                      required
+                      placeholder="your message"
+                      className="input input-bordered w-full max-w-xs h-32"
+                    ></textarea>
+                  </div>
+
+                  <div className="py-5">
+                    <input
+                      type="submit"
+                      className="btn  w-full max-w-x "
+                      value="Send message"
+                      style={{ backgroundColor: "#453364", color: "white" }}
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="partners-intro--thumb aos-init aos-animate    ">
             <div class="partners-intro--partners">
               <div class="partners-intro--partners-item -pos-1">
                 <img

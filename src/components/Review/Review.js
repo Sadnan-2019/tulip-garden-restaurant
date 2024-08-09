@@ -16,6 +16,14 @@ import {
 const Review = () => {
     return (
         <div>
+
+<h2
+          style={{ lineHeight: "120%" }}
+          className="animated slide-text text-[25px] lg:text-[40px] font-bold   text-center mt-8   text-transparent bg-clip-text bg-gradient-to-r from-[#0b281c] to-[#e97f06] "
+        >
+          {" "}
+          CUSTOMER REVIEW
+        </h2>
             <div className="h-scren  mb-10    ">
       <Swiper
         effect={"coverflow"}

@@ -11,8 +11,14 @@ const Nav = () => {
      const gotoService = () => {
        window.scrollTo({ top: 2200, left: 0, behavior: "smooth" });
      };
+     const gotoTeam = () => {
+       window.scrollTo({ top: 2800, left: 0, behavior: "smooth" });
+     };
+     const gotoReview = () => {
+       window.scrollTo({ top: 3300, left: 0, behavior: "smooth" });
+     };
      const gotoContact = () => {
-       window.scrollTo({ top: 3200, left: 0, behavior: "smooth" });
+       window.scrollTo({ top: 3800, left: 0, behavior: "smooth" });
      };
      const active =
        "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-green-900  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-white    ";
@@ -42,7 +48,7 @@ const Nav = () => {
              onClick={gotoAbout}
              to="/home"
            >
-             ABOUT
+             OUR MENU
            </NavLink>
          </li>
    
@@ -52,16 +58,29 @@ const Nav = () => {
              onClick={gotoService}
              to="/home"
            >
-             SERVICE
+             ABOUT
            </NavLink>
          </li>
          <li className="nav-item p-2  	list-none">
            <NavLink
-             onClick={() => setIsOpen(false)}
-             className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-             to="/allproduct"
+            //  onClick={() => setIsOpen(false)}
+            //  className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+             onClick={gotoTeam}
+             className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
+             to="/home"
            >
-             PRODUCT
+             OUR TEAM
+           </NavLink>
+         </li>
+         <li className="nav-item p-2  	list-none">
+           <NavLink
+            //  onClick={() => setIsOpen(false)}
+            //  className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+             onClick={gotoReview}
+             className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
+             to="/home"
+           >
+             CUSTOMER REVIEW
            </NavLink>
          </li>
    
@@ -74,7 +93,7 @@ const Nav = () => {
              CONTACTS
            </NavLink>
          </li>
-         <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
+         {/* <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
            <NavLink
              className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
              // onClick={gotoContact}
@@ -82,7 +101,7 @@ const Nav = () => {
            >
              LOGIN
            </NavLink>
-         </li>
+         </li> */}
        </>
      );
 
