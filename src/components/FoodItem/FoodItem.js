@@ -7,8 +7,10 @@ import food4 from "../../assets/tgr3.jpg";
 import food5 from "../../assets/food5.png";
 import food6 from "../../assets/food6.png";
 import useFetch from "../hooks/useFetch";
+import Skeleton from "./Skeleton";
+import FoodsDetails from "./FoodsDetails";
 const FoodItem = () => {
-  const [menuTab, setMenuTab] = useState("Wedding");
+  const [menuTab, setMenuTab] = useState("Bangla");
   const [loading, setLoading] = useState(false);
   const [foods] = useFetch();
   //   console.log(foods)
@@ -92,7 +94,7 @@ const FoodItem = () => {
 
           <div class=" ">
             <div class="py-10  grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3   items-center justify-items-center  ">
-              <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+              {/* <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
                 <img
                   class="w-full rounded-lg object-cover object-center"
                   src={food}
@@ -166,7 +168,19 @@ const FoodItem = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
+ {foods
+          .filter((item) => menuTab === item.type)
+          .map((item) =>
+            loading ? (
+              <Skeleton key={item._id} />
+            ) : (
+              <FoodsDetails key={item._id} item={item} {...item} />
+            )
+          )}
+
+
+
             </div>
           </div>
         </div>
