@@ -4,112 +4,69 @@ const Contact = () => {
   return (
     <div>
       <div className=" bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]">
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2   items-center justify-items-center px-8">
-          <div>
-            <div class="flex flex-col  justify-center p-8     rounded-xl relative z-10">
-               
-              <form>
-                <div class="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
-                  <div data-aos="fade-up" class="relative">
-                    <p class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100 absolute">
-                      Name
-                    </p>
-                    <input
-                      name="name"
-                      placeholder="John"
-                      type="text"
-                      class="border  placeholder-gray-400 focus:outline-none
-      focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
-      border-gray-300 rounded-md"
-                    />
-                  </div>
-                  <div data-aos="fade-up" class="relative">
-                    <p class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100 absolute">
-                      Email
-                    </p>
-                    <input
-                      name="email"
-                      placeholder="123@ex.com"
-                      type="email"
-                      class="border placeholder-gray-400 focus:outline-none
-      focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
-      border-gray-300 rounded-md"
-                    />
-                  </div>
-                  <div data-aos="fade-up" class="relative">
-                    <p class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100 absolute">
-                      Phone Number
-                    </p>
-                    <input
-                      name="mobile"
-                      placeholder="Phone Number"
-                      type="text"
-                      class="border placeholder-gray-400 focus:outline-none
-      focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
-      border-gray-300 rounded-md"
-                    />
-                  </div>
-
-                  <div data-aos="fade-up" class="relative">
-                    <p
-                      class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100
-      absolute"
-                    >
-                      Message
-                    </p>
-                    <textarea
-                      name="message"
-                      placeholder="Message"
-                      type="text"
-                      class="border placeholder-gray-400 focus:outline-none
-      focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
-      border-gray-300 rounded-md"
-                    />
-                  </div>
-
-                  <div className="">
-                    <input
-                      type="submit"
-                      className="btn bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24]  w-full max-w-x "
-                      value="Send message"
-                      style={{ backgroundColor: "#453364", color: "white" }}
-                    />
-                  </div>
-                </div>
-              </form>
+      <section class=" ">
+          <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6   lg:px-8">
+            <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+              <h2 class="text-3xl font-extrabold text-gray-100">
+                Visit Our Location
+              </h2>
             </div>
-          </div>
+            <div class="mt-16 lg:mt-20">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116115.98614205884!2d90.31514624563988!3d24.56763269435265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375643017b21d3e5%3A0x7235c56ed9afaf50!2sTulip%20Garden%20Restaurant!5e0!3m2!1sen!2sbd!4v1723217999902!5m2!1sen!2sbd"
+                    width="100%"
+                    height="480"
+                  ></iframe>
 
-          <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
-         
-
-            <div>
-              <div class="max-w-full mx-auto rounded-lg overflow-hidden">
-                <div class="px-6 py-4">
-                  <h3 class="text-lg font-medium text-gray-100">Our Address</h3>
-                  <p class="mt-1 text-gray-100">
-                  Zero Point, Nawdhar, Trishal, Mymensingh, Bangladesh
-                  </p>
+                   
                 </div>
-                <div class="border-t border-gray-200 px-6 py-4">
-                  <h3 class="text-lg font-medium text-gray-100">Hours</h3>
-                  <p class="mt-1 text-gray-100">Saturday: 09:00am - 06:00pm</p>
-                  <p class="mt-1 text-gray-100">Sunday: 09:00am - 06:00pm</p>
-                  <p class="mt-1 text-gray-100">Monday: 09:00am - 06:00pm</p>
-                  <p class="mt-1 text-gray-100">Tuesday: 09:00am - 06:00pm</p>
-                  <p class="mt-1 text-gray-100">Wednesday: 09:00am - 06:00pm</p>
-                  <p class="mt-1 text-gray-100">Thursday: 09:00am - 06:00pm</p>
-                </div>
-                <div class="border-t border-gray-200 px-6 py-4">
-                  <h3 class="text-lg font-medium text-gray-100">Contact</h3>
-                  <p class="mt-1 text-gray-100">Email: info@tgr.mrg.bd.com</p>
-                  <p class="mt-1 text-gray-100">Phone: 880 1633-077777</p>
-                  {/* <p class="mt-1 text-gray-100">Phone: +880 1333-388686</p> */}
+                <div>
+                  <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+                    <div class="px-6 py-4">
+                      <h3 class="text-lg font-medium text-gray-100">
+                        Our Address
+                      </h3>
+                      <p class="mt-1 text-gray-100">
+                      Zero Point, Nawdhar, Trishal, Mymensingh, Bangladesh
+                      </p>
+                    </div>
+                    <div class="border-t border-gray-200 px-6 py-4">
+                      <h3 class="text-lg font-medium text-gray-100">Hours</h3>
+                      <p class="mt-1 text-gray-100">
+                        Saturday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Sunday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Monday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Tuesday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Wednesday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Thursday: 09:00am - 06:00pm
+                      </p>
+                    </div>
+                    <div class="border-t border-gray-200 px-6 py-4">
+                      <h3 class="text-lg font-medium text-gray-100">Contact</h3>
+                      <p class="mt-1 text-gray-100">
+                        Email: info@es.mrg.bd.com
+                      </p>
+                      <p class="mt-1 text-gray-100">Phone: +880 1333-388585</p>
+                      <p class="mt-1 text-gray-100">Phone: +880 1333-388686</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
