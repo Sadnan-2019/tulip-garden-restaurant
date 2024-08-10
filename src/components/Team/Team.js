@@ -12,15 +12,12 @@ const Team = () => {
           {" "}
           OUR TEAM
         </h2>
-       
 
         <section class=" ">
           <div class="max-w-7xl mx-auto   px-4 sm:px-6   lg:px-8">
-           
             <div class="mt-16 lg:mt-20">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="rounded-lg overflow-hidden">
-                   
                   <img
                     class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                     src={about1}
@@ -31,12 +28,12 @@ const Team = () => {
                   <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                     <p class="text-2xl mt-4 text-white">
                       For over a generation, we've delighted food lovers
-                      nationwide with our exceptional Bangla, Thai,
-                      Chines,Desserts and Indian cuisine. Our mission has always
-                      been to satisfy our customers' palates. Nestled in the
-                      heart of Dhaka, our tranquil garden and serene interiors
-                      offer an unmatched dining experience. Join us for a
-                      memorable meal with your loved ones and savor the moment.
+                      nationwide with our exceptional Bangla, Thai, Chinese,
+                      Desserts and Indian cuisine. Our mission has always been
+                      to satisfy our customers' palates. Nestled in the heart of
+                      Mymenshing , our restaurant and serene interiors offer an
+                      unmatched dining experience. Join us for a memorable meal
+                      with your loved ones and savour the moment.
                     </p>
                   </div>
                 </div>
