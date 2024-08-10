@@ -9,6 +9,7 @@ import Video from './components/Video/Video';
 import Review from './components/Review/Review';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
+import Resturent from './components/Resturent/Resturent';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Nav></Nav>
         <Landing></Landing>
         <FoodItem></FoodItem>
-        <Foods></Foods>
+        {/* <Foods></Foods> */}
+        <Resturent></Resturent>
         <Video></Video>
         <Team></Team>
         <Review></Review>

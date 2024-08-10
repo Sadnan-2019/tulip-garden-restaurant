@@ -9,16 +9,20 @@ const Nav = () => {
        window.scrollTo({ top: 800, left: 0, behavior: "smooth" });
      };
      const gotoService = () => {
-       window.scrollTo({ top: 2200, left: 0, behavior: "smooth" });
-     };
-     const gotoTeam = () => {
-       window.scrollTo({ top: 2800, left: 0, behavior: "smooth" });
-     };
-     const gotoReview = () => {
        window.scrollTo({ top: 3300, left: 0, behavior: "smooth" });
      };
+     const gotogallery = () => {
+      window.scrollTo({ top: 2200, left: 0, behavior: "smooth" });
+    };
+     const gotoTeam = () => {
+       window.scrollTo({ top: 3700, left: 0, behavior: "smooth" });
+     };
+     const gotoReview = () => {
+       window.scrollTo({ top: 4300, left: 0, behavior: "smooth" });
+     };
+     
      const gotoContact = () => {
-       window.scrollTo({ top: 3800, left: 0, behavior: "smooth" });
+       window.scrollTo({ top: 4700, left: 0, behavior: "smooth" });
      };
      const active =
        "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-green-900  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-white    ";
@@ -70,6 +74,17 @@ const Nav = () => {
              to="/home"
            >
              OUR TEAM
+           </NavLink>
+         </li>
+         <li className="nav-item p-2  	list-none">
+           <NavLink
+            //  onClick={() => setIsOpen(false)}
+            //  className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+             onClick={gotogallery}
+             className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
+             to="/home"
+           >
+             GALLERY
            </NavLink>
          </li>
          <li className="nav-item p-2  	list-none">

@@ -8,7 +8,7 @@ const Contact = () => {
           <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6   lg:px-8">
             <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
               <h2 class="text-3xl font-extrabold text-gray-100">
-                Visit Our Location
+                VISIT OUR LOCATION
               </h2>
             </div>
             <div class="mt-16 lg:mt-20">
@@ -56,10 +56,10 @@ const Contact = () => {
                     <div class="border-t border-gray-200 px-6 py-4">
                       <h3 class="text-lg font-medium text-gray-100">Contact</h3>
                       <p class="mt-1 text-gray-100">
-                        Email: info@es.mrg.bd.com
+                        Email: info@ts.mrg.bd.com
                       </p>
-                      <p class="mt-1 text-gray-100">Phone: +880 1333-388585</p>
-                      <p class="mt-1 text-gray-100">Phone: +880 1333-388686</p>
+                      <p class="mt-1 text-gray-100">Phone: +88 01633-077777</p>
+                      {/* <p class="mt-1 text-gray-100">Phone: +880 1333-388686</p> */}
                     </div>
                   </div>
                 </div>

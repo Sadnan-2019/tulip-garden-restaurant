@@ -26,7 +26,7 @@ const Footer = () => {
                     href="#"
                     class="block text-2xl font-medium text-white hover:opacity-75 sm:text-3xl"
                   >
-                    0123456789
+                   +88 01633-077777
                   </a>
                 </p>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                 <ul class="mt-8 flex gap-6">
                   <li>
                     <a
-                      href="/"
+                      href="https://www.facebook.com/TulipgardenTrishal"
                       rel="noreferrer"
                       target="_blank"
                       class="text-white transition hover:opacity-75"
@@ -111,7 +111,7 @@ const Footer = () => {
               </div>
 
               <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div>
+                {/* <div>
                   <p class="font-medium text-white">Services</p>
 
                   <ul class="mt-6 space-y-4 text-sm">
@@ -160,7 +160,7 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 <div>
                   <p class="font-medium text-white">Company</p>
@@ -220,7 +220,7 @@ const Footer = () => {
                 </ul>
 
                 <p class="mt-8 text-xs text-white sm:mt-0">
-                  &copy; 2022. Company Name. All rights reserved.
+                  &copy; 2024. TULIP GARDEN RESTAURANT. All rights reserved.
                 </p>
               </div>
             </div>
