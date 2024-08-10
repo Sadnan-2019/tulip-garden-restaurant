@@ -133,7 +133,7 @@
     },
     
     {
-      "id": 18,
+      "id": 15,
       "title": "Thai",
       "name": "Thai Soup",
       "price": 9.99,
@@ -141,7 +141,7 @@
       "type": "Thai"
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "Thai",
       "name": "Vegetable soup",
       "price": 9.99,
@@ -149,16 +149,9 @@
       "type": "Thai"
     },
    
+     
     {
-      "id": 18,
-      "title": "Thai",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
-      "price": 9.99,
-      "image": "https://i.ibb.co/cCT0FSK/holud9.jpg",
-      "type": "Thai"
-    },
-    {
-      "id": 18,
+      "id": 17,
       "title": "Bangla",
       "name": " ছোট মাছ",
       "price": 9.99,
