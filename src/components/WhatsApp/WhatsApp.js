@@ -6,10 +6,10 @@ const WhatsApp = () => {
     const messengerLink = "https://m.me/375336189865833";
     
     return (
-        <div>
+        <div> 
             <div>
         <div>
-          <a className="" target="_blank" href="https://wa.me/+8801333388585">
+          <a className="" target="_blank" href="https://wa.me/+8801633077777">
             <img
               src={FaWhatsapp}
               // onClick={gotoBtn}

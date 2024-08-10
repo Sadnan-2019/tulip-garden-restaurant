@@ -72,9 +72,9 @@ const Landing = () => {
                           currentSlide === 0 ? "animated" : ""
                         }`}
                       >
-                        Map your Food
+                 Experience Our Tempting New Lunch Specials 
                         <br class=" lg:block" />
-                        Interview Prep, accommodation, all in one place.
+                        at The Tulip Garden Resturent.
                       </h1>
 
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
@@ -94,7 +94,7 @@ const Landing = () => {
                             }`}
                             class=""
                           >
-                            Get Opportunities
+                            Get Offer
                           </button>
                         </div>
                       </div>
@@ -116,9 +116,9 @@ const Landing = () => {
                           currentSlide === 1 ? "animated" : ""
                         }`}
                       >
-                        Map your Food
+                                   Indulge in the Delectable Food and Beverage Selection 
                         <br class=" lg:block" />
-                        Interview Prep, accommodation, all in one place.
+                        at The Tulip Garden Resturent..
                       </h1>
 
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
@@ -160,9 +160,9 @@ const Landing = () => {
                           currentSlide === 2 ? "animated" : ""
                         }`}
                       >
-                        Map your Food THree
+                        Unleash Your Palate with the Steak and 
                         <br class=" lg:block" />
-                        Interview Prep, accommodation, all in one place.
+                        Thai Food King.
                       </h1>
 
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">

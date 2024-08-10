@@ -4,7 +4,7 @@
       "title": "Bangla",
       "name": "গরু গোস্ত ",
       "price": 8.99,
-      "image": "https://i.ibb.co/8x7QQMD/wedding6.jpg",
+      "image": "/image/goru.jpg",
       "type": "Bangla"
     },
     {
@@ -12,32 +12,32 @@
       "title": "Bangla",
       "name": "ভাত",
       "price": 9.99,
-      "image": "https://i.ibb.co/RBm56hQ/wedding7.jpg",
+      "image": "/image/vat.jpg",
       "type": "Bangla"
     },
     {
       "id": 3,
       "title": "Bangla",
-      "name": "খাসীর গোস্ত",
+      "name": "চিংড়ি",
       "price": 10.99,
-      "image": "https://i.ibb.co/kHCvFCF/wedding4.jpg",
+      "image": "/image/chingri.jpg",
       "type": "Bangla"
     },
     {
       "id": 4,
-      "title": "Thai",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "title": "Bangla",
+      "name": "মলা মাছ",
       "price": 23.99,
-      "image": "https://i.ibb.co/BCHW1Tm/wedding3.jpg",
-      "type": "Thai"
+      "image": "/image/molacutomas.jpg",
+      "type": "Bangla"
     },
     {
       "id": 5,
-      "title": "Thai",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "title": "Bangla",
+      "name": "সবজি",
       "price": 3.99,
-      "image": "https://i.ibb.co/1qcVqMJ/wedding1.jpg",
-      "type": "Thai"
+      "image": "/image/shobji.jpg",
+      "type": "Bangla"
     },
     
     
@@ -46,50 +46,50 @@
     
     {
       "id": 6,
-      "title": "Indian",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "title": "Bangla",
+      "name": "ভাজি",
       "price": 19.99,
-      "image": "https://i.ibb.co/nzVffNg/wedding2.jpg",
-      "type": "Indian"
+      "image": "/image/Vaji.jpg",
+      "type": "Bangla"
     },
     {
       "id": 7,
       "title": "Indian",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "ইন্ডিয়ান হায়দ্রাবাদী বিরিয়ানির",
       "price": 15.99,
-      "image": "https://i.ibb.co/VTDDjfP/corporate5.jpg",
+      "image": "/image/setmenu.jpg",
       "type": "Indian"
     },
     {
       "id": 8,
       "title": "Indian",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "ইন্ডিয়ান হায়দ্রাবাদি মাটন বিরিয়ানি",
       "price": 7.99,
-      "image": "https://i.ibb.co/943dSz7/corporate4.jpg",
+      "image": "/image/ইন্ডিয়ান হায়দ্রাবাদি মাটন বিরিয়ানি.jpg",
       "type": "Indian"
     },
     {
       "id": 9,
       "title": "Chines",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "Set Menu",
       "price": 7.99,
-      "image": "https://i.ibb.co/44xWq23/corporate3.jpg",
+      "image": "/image/chines set menu.jpg",
       "type": "Chines"
     },
     {
       "id": 10,
       "title": "Chines",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "Chines",
       "price": 8.99,
-      "image": "https://i.ibb.co/V9MfWdv/corporate2.jpg",
+      "image": "/image/chines.jpg",
       "type": "Chines"
     },
     {
       "id": 11,
       "title": "Chines",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "Fried rice",
       "price": 13.99,
-      "image": "https://i.ibb.co/pXT0qC9/corporate1.jpg",
+      "image": "/image/friedrice.jpg",
       "type": "Chines"
     },
 
@@ -100,18 +100,18 @@
 
     {
       "id": 12,
-      "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "title": "Chines",
+      "name": "চাইনিজ ভেজিটেবল রেসিপি",
       "price": 83.99,
-      "image": "https://i.ibb.co/nM2NWx0/corporate.jpg",
-      "type": "Desserts"
+      "image": "/image/চাইনিজ ভেজিটেবল রেসিপি.jpg",
+      "type": "Chines"
     },
     {
       "id": 13,
       "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "",
       "price": 66.99,
-      "image": "https://i.ibb.co/b37PnqY/holud1.jpg",
+      "image": "/image/desert1.jpg",
       "type": "Desserts"
     },
 
@@ -126,49 +126,26 @@
     {
       "id": 14,
       "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": " ",
       "price": 56.99,
-      "image": "https://i.ibb.co/5hZKmq1/holud2.jpg",
+      "image": "/image/desert2.jpg",
       "type": "Desserts"
     },
-    {
-      "id": 15,
-      "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
-      "price": 3.99,
-      "image": "   https://i.ibb.co/bQpFQgB/holud3.jpg",
-      "type": "Desserts"
-    },
-    {
-      "id": 16,
-      "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
-      "price": 23.99,
-      "image": " https://i.ibb.co/Fh2jGDz/holud4.jpg",
-      "type": "Desserts"
-    },
-    {
-      "id": 17,
-      "title": "Desserts",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
-      "price": 12.99,
-      "image": "https://i.ibb.co/nbt3YvY/holud6.jpg",
-      "type": "Desserts"
-    },
+    
     {
       "id": 18,
       "title": "Thai",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "Thai Soup",
       "price": 9.99,
-      "image": "https://i.ibb.co/sJzm8d1/holud7.jpg",
+      "image": "/image/thaisoup.jpg",
       "type": "Thai"
     },
     {
       "id": 18,
       "title": "Thai",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": "Vegetable soup",
       "price": 9.99,
-      "image": "https://i.ibb.co/rZNb6F7/holud8.jpg",
+      "image": "/image/vsoup.jpg",
       "type": "Thai"
     },
    
@@ -183,9 +160,9 @@
     {
       "id": 18,
       "title": "Bangla",
-      "name": "Gay one the what walk then she. Demesne mention promise you justice arrived way.Amazing foods are or and increasing to in especially inquietude companions acceptance admiration.Outweigh it families distance wandered ye..",
+      "name": " ছোট মাছ",
       "price": 9.99,
-      "image": "https://i.ibb.co/gjfTD8y/holud10.jpg",
+      "image": "/image/cutomas (2).jpg",
       "type": "Bangla"
     }
   ]
