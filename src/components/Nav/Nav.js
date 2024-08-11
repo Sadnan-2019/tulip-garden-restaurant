@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Transition } from "@headlessui/react";
+import "./Nav.css"
 import  logo from "../../assets/tulip.png"
 const Nav = () => {
      const [isOpen, setIsOpen] = useState(false);

@@ -1,0 +1,9 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+ .header{
+
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+ }
