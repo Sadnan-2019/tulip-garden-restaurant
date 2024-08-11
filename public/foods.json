@@ -109,7 +109,7 @@
     {
       "id": 13,
       "title": "Desserts",
-      "name": "",
+      "name": "জর্দা",
       "price": 66.99,
       "image": "/image/desert1.jpg",
       "type": "Desserts"
@@ -157,6 +157,38 @@
       "price": 9.99,
       "image": "/image/cutomas (2).jpg",
       "type": "Bangla"
+    },
+    {
+      "id": 18,
+      "title": "Bangla",
+      "name": "গরুর কাচ্চি",
+      "price": 3.99,
+      "image": "/image/goru kcahii.jpg",
+      "type": "Bangla"
+    },
+    {
+      "id": 19,
+      "title": "Bangla",
+      "name": "ইলিশ মাছ",
+      "price": 3.99,
+      "image": "/image/elish mas.jpg",
+      "type": "Bangla"
+    },
+    {
+      "id": 20,
+      "title": "Bangla",
+      "name": "মোরগ পোলাও",
+      "price": 3.99,
+      "image": "/image/murog polaw.jpg",
+      "type": "Bangla"
+    },
+    {
+      "id": 20,
+      "title": "Desserts",
+      "name": "ফালুদা",
+      "price": 3.99,
+      "image": "/image/faluda.jpg",
+      "type": "Desserts"
     }
   ]
   

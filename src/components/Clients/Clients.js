@@ -32,44 +32,44 @@ const Clients = () => {
                         <div class="   py-5    gap-5 flex     align-center justify-center    rounded-xl">
                             <img
                                 alt=""
-                                class="h-32 w-52   p-2   rounded  "
+                                class="h-24 w-44   p-2   rounded  "
                                 src={food1}
                             />
 
                             <img
                                 alt=""
-                                class="h-32 w-52  p-2   rounded  "
+                                class="h-24 w-44  p-2   rounded  "
                                 src={food2}
                             />
                             <img
                                 alt=""
-                                class="h-32 w-52  p-2   rounded  "
+                                class="h-24 w-44  p-2   rounded  "
                                 src={food3}
                             />
 
                             <img
                                 alt=""
-                                class="h-32 w-52  p-2   rounded   "
+                                class="h-24 w-44  p-2   rounded   "
                                 src={food9}
                             />
                             <img
                                 alt=""
-                                class="h-32 w-52   p-2  rounded  "
+                                class="h-24 w-44   p-2  rounded  "
                                 src={food5}
                             />
                             <img
                                 alt=""
-                                class="h-32 w-52   p-2  rounded  "
+                                class="h-24 w-44   p-2  rounded  "
                                 src={food6}
                             />
 
                             <img
                                 alt=""
-                                class="h-32 w-52   p-2  rounded  "
+                                class="h-24 w-44   p-2  rounded  "
                                 src={food7}
                             />
-                            <img alt="" class="h-32 w-52   p-2  rounded  " src={food8} />
-                            <img alt="" class="h-32 w-52   p-2  rounded  " src={food9} />
+                            <img alt="" class="h-24 w-44   p-2  rounded  " src={food8} />
+                            <img alt="" class="h-24 w-44   p-2  rounded  " src={food10} />
                         </div>
                     </div>
                 </div>

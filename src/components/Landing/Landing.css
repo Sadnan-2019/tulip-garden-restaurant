@@ -1,93 +1,72 @@
 .full-width-slider {
-     width: 100%;
-     max-width: 100vw;
-     overflow: hidden;
-     position: relative;
-   }
-   .slider-slide {
-     height: 100vh;
-     /* background-size: cover;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-slide {
+  height: 100vh;
+  /* background-size: cover;
         background-position: center; */
-   }
-   
-   .slide-content {
-     /* position: absolute;
+}
+
+.slide-content {
+  /* position: absolute;
         top: 50%;
         left: 50%; */
-     /* transform: translate(-50%, -50%); */
-     color: #fff;
-     /* text-align: center; */
-   }
-   
-   /* .slick-prev:before,
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  /* text-align: center; */
+}
+
+/* .slick-prev:before,
       .slick-next:before {
         color: rgb(29, 7, 94);
       } */
-      .slick-prev:before,
-      .slick-next:before {
-        /* -webkit-animation: flickerAnimation 0.5s infinite;
+.slick-prev:before,
+.slick-next:before {
+  /* -webkit-animation: flickerAnimation 0.5s infinite;
           -moz-animation: flickerAnimation 0.5s infinite;
           -o-animation: flickerAnimation 0.5s infinite;
           animation: flickerAnimation 0.5s infinite; */
-        color: rgb(225, 222, 234);
-      }
-      
-      /* ////new button place on image  */
-      .slick-prev {
-        z-index: 100;
-      }
-      .slick-next {
-        /* z-index: 100; */
-        width: 100px;
-      }
-      
-      .slick-prev {
-        left: 10px;
-      }
-   .landingone {
-     background-image: linear-gradient(
-         to left,
-         rgba(49, 16, 234, 0.01),
-         rgba(0, 9, 10, 0.9)
-       ),
-       url("../../assets/landingfive.jpg");
-     width: 100%;
-     height: 100vh;
-   
-     background-size: contain;
-     background-size: cover;
-   
-     background-size: 100% 100%;
-   
-     background-repeat: no-repeat;
-   }
-   
-   @media only screen and (max-width: 393px) {
-     .landingone {
-       width: 100%;
-       background-image: linear-gradient(
-           to left,
-           rgba(49, 16, 234, 0.01),
-           rgba(0, 9, 10, 0.9)
-         ),
-         url("../../assets/landingfive.jpg");
-       height: 30vh;
-   
-       background-size: contain;
-       background-size: cover;
-   
-       background-size: 100% 100%;
-   
-       background-repeat: no-repeat;
-     }
-   }
-   
-   .landingtwo {
-    background-image: linear-gradient(
-      to left,
+  color: rgb(225, 222, 234);
+}
+
+/* ////new button place on image  */
+.slick-prev {
+  z-index: 100;
+}
+
+.slick-next {
+  /* z-index: 100; */
+  width: 100px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.landingone {
+  background-image: linear-gradient(to left,
       rgba(49, 16, 234, 0.01),
-      rgba(0, 9, 10, 0.9)
-    ),
+      rgba(0, 9, 10, 0.9)),
+    url("../../assets/landingfive.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: contain;
+  background-size: cover;
+
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+}
+
+.landingtwo {
+  background-image: linear-gradient(to left,
+      rgba(49, 16, 234, 0.01),
+      rgba(0, 9, 10, 0.9)),
     url("../../assets/landingtwo.jpg");
   width: 100%;
   height: 100vh;
@@ -98,13 +77,12 @@
   background-size: 100% 100%;
 
   background-repeat: no-repeat;
-   }
-   .landingthree {
-    background-image: linear-gradient(
-      to left,
+}
+
+.landingthree {
+  background-image: linear-gradient(to left,
       rgba(49, 16, 234, 0.01),
-      rgba(0, 9, 10, 0.9)
-    ),
+      rgba(0, 9, 10, 0.9)),
     url("../../assets/landingthree.jpg");
   width: 100%;
   height: 100vh;
@@ -115,54 +93,137 @@
   background-size: 100% 100%;
 
   background-repeat: no-repeat;
-   }
-   
-   @keyframes fade-in {
-     from {
-       opacity: 0;
-       transform: translateY(-20px);
-     }
-     to {
-       opacity: 1;
-       transform: translateY(0);
-     }
-   }
-   
-   .slide-text {
-     /* opacity: 0; */
-   }
-   
-   .animated {
-     opacity: 1;
-   
-     animation: fade-in 1s ease-in-out;
-   
-     animation-duration: 1s;
-   }
-   /*  */
-   
-   /* new both side animation */
-   .animatedpic {
-     opacity: 1;
-   
-     animation: bounce-in-right 2s ease;
-   
-     animation-duration: 1s;
-   }
-   @keyframes bounce-in-right {
-     0% {
-       opacity: 0;
-       transform: translateX(2000px);
-     }
-     60% {
-       opacity: 1;
-       transform: translateX(-30px);
-     }
-     80% {
-       transform: translateX(10px);
-     }
-     100% {
-       transform: translateX(0);
-     }
-   }
-   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 393px) {
+  .landingone {
+    width: 100%;
+    background-image: linear-gradient(to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)),
+      url("../../assets/landingfive.jpg");
+    height: 30vh;
+
+    background-size: contain;
+    background-size: cover;
+
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+  }
+
+  .landingtwo {
+    width: 100%;
+    background-image: linear-gradient(to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)),
+      url("../../assets/landingtwo.jpg");
+    height: 30vh;
+
+    background-size: contain;
+    background-size: cover;
+
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+  }
+
+  .landingthree {
+    width: 100%;
+    background-image: linear-gradient(to left,
+        rgba(49, 16, 234, 0.01),
+        rgba(0, 9, 10, 0.9)),
+      url("../../assets/landingthree.jpg");
+    height: 30vh;
+
+    background-size: contain;
+    background-size: cover;
+
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-text {
+  /* opacity: 0; */
+}
+
+.animated {
+  opacity: 1;
+
+  animation: fade-in 1s ease-in-out;
+
+  animation-duration: 1s;
+}
+
+/*  */
+
+/* new both side animation */
+.animatedpic {
+  opacity: 1;
+
+  animation: bounce-in-right 2s ease;
+
+  animation-duration: 1s;
+}
+
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
