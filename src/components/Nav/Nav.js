@@ -123,8 +123,8 @@ const Nav = () => {
 
 
      return (
-          <div>
-              <div className="sticky top-0 z-50 header">
+          <div className='sticky top-0 z-50 header'>
+              <div className="">
         {/* ////////////////new nav  */}
 
         <nav className="lg:bg-gray-100 shadow-lg border-l-gray-100 p-4" >

@@ -39,7 +39,7 @@ const FoodItem = () => {
           OUR MENU
         </h2>
         <div class=" ">
-          <div className="  rounded-lg flex items-center justify-center space-x-6">
+          <div className=" sm:px-10 sm:justify-center   flex-col md:flex-row  rounded-lg flex items-center justify-center space-x-6">
              <p
               className={
                 menuTab === "Bangla"
