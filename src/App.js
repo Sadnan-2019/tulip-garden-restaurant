@@ -10,6 +10,7 @@ import Review from './components/Review/Review';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
 import Resturent from './components/Resturent/Resturent';
+import Clients from './components/Clients/Clients';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Resturent></Resturent>
         <Video></Video>
         <Team></Team>
+        <Clients></Clients>
         <Review></Review>
        <Contact></Contact>
         <Footer></Footer>

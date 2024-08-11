@@ -23,17 +23,17 @@ const Resturent = () => {
 
             <div className="grid lg:grid-cols-4 gallery-item py-10 mx-10">
          
-         <img src={res1} class=" w-full h-80  " alt="" />
-         <img src={res2} class=" w-full h-80   " alt="" />
+         <img src={res1} class=" w-full h-64  " alt="" />
+         <img src={res2} class=" w-full h-64  " alt="" />
        
-         <img src={res3} class=" w-full h-80   " alt="" />
-         <img src={res4} class=" w-full h-80  " alt="" />
+         <img src={res3} class=" w-full h-64    " alt="" />
+         <img src={res4} class=" w-full h-64   " alt="" />
         
-         <img src={res5} class=" w-full h-80  " alt="" />
-         <img src={res6} class=" w-full h-80  " alt="" />
-         <img src={res7} class=" w-full h-80   " alt="" />
+         <img src={res5} class=" w-full h-64  " alt="" />
+         <img src={res6} class=" w-full h-64   " alt="" />
+         <img src={res7} class=" w-full h-64    " alt="" />
         
-         <img src={res8} class=" w-full h-80   " alt="" />
+         <img src={res8} class=" w-full h-64    " alt="" />
      </div>
         </div>
     );
