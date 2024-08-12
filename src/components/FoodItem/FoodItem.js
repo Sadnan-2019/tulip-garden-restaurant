@@ -31,15 +31,16 @@ const FoodItem = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] ">
-        <h2
+        <h2 data-aos="zoom-out-up"
           style={{ lineHeight: "120%" }}
-          className=" py-7 animated slide-text text-[25px] lg:text-[40px] font-bold   text-center   text-white "
+          className="gupter-regular  py-7 animated slide-text text-[25px] lg:text-[40px] font-bold   text-center   text-white "
         >
           {" "}
           OUR MENU
         </h2>
-        <div class=" ">
-          <div className=" sm:px-10 sm:justify-center   flex-col md:flex-row  rounded-lg flex items-center justify-center space-x-6">
+        <div class="gupter-regular  ">
+          <div data-aos="fade-up"
+     data-aos-duration="3000" className=" sm:px-10 sm:justify-center   flex-col md:flex-row  rounded-lg flex items-center justify-center space-x-6">
              <p
               className={
                 menuTab === "Bangla"

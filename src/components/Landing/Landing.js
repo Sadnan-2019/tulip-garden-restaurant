@@ -68,7 +68,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
                           currentSlide === 0 ? "animated" : ""
                         }`}
                       >
@@ -80,7 +80,7 @@ const Landing = () => {
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
                         <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                           <button
-                            class={`bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                            class={`gupter-regular   bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
                               currentSlideThree === 0 ? "animatedtext" : ""
                             }`}
                           >
@@ -89,7 +89,7 @@ const Landing = () => {
                         </div>
                         <div class="mt-3 rounded-lg sm:mt-0">
                           <button
-                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                            className={`gupter-regular  slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                               currentSlideTwo === 0 ? "animatedpic" : ""
                             }`}
                             class=""
@@ -112,7 +112,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
+                        className={`gupter-regular   slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
                           currentSlide === 1 ? "animated" : ""
                         }`}
                       >
@@ -124,7 +124,7 @@ const Landing = () => {
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
                         <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                           <button
-                            class={`bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                            class={`gupter-regular    bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
                               currentSlideThree === 1 ? "animatedtext" : ""
                             }`}
                           >
@@ -133,7 +133,7 @@ const Landing = () => {
                         </div>
                         <div class="mt-3 rounded-lg sm:mt-0">
                           <button
-                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                            className={`gupter-regular    slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                               currentSlideTwo === 1 ? "animatedpic" : ""
                             }`}
                             class=""
@@ -156,7 +156,7 @@ const Landing = () => {
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
-                        className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
+                        className={`gupter-regular  slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter   lg:text-[40px] lg:max-w-7xl    text-transparent   text-white ${
                           currentSlide === 2 ? "animated" : ""
                         }`}
                       >
@@ -168,7 +168,7 @@ const Landing = () => {
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
                         <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                           <button
-                            class={`bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                            class={`gupter-regular      bg-green-900 slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
                               currentSlideThree === 2 ? "animatedtext" : ""
                             }`}
                           >
@@ -177,7 +177,7 @@ const Landing = () => {
                         </div>
                         <div class="mt-3 rounded-lg sm:mt-0">
                           <button
-                            className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                            className={`gupter-regular slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-[#EE8D1C] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
                               currentSlideTwo === 2 ? "animatedpic" : ""
                             }`}
                             class=""

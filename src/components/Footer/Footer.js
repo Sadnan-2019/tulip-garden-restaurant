@@ -4,7 +4,7 @@ import WhatsApp from "../WhatsApp/WhatsApp";
 const Footer = () => {
   return (
     <div>
-      <div className="">
+      <div className="gupter-regular ">
         <footer class="bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A] lg:grid lg:grid-cols-5   ">
           <div class="     lg:col-span-1 lg:h-96">
             {/* <img

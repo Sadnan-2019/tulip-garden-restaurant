@@ -6,20 +6,20 @@ import  logo from "../../assets/tulip.png"
 const Nav = () => {
      const [isOpen, setIsOpen] = useState(false);
 
-     const gotoAbout = () => {
+     const gotoMenu = () => {
        window.scrollTo({ top: 800, left: 0, behavior: "smooth" });
      };
-     const gotoService = () => {
-       window.scrollTo({ top: 3300, left: 0, behavior: "smooth" });
+     const gotoAbout = () => {
+       window.scrollTo({ top: 2600, left: 0, behavior: "smooth" });
      };
      const gotogallery = () => {
-      window.scrollTo({ top: 2200, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 1900, left: 0, behavior: "smooth" });
     };
      const gotoTeam = () => {
-       window.scrollTo({ top: 3700, left: 0, behavior: "smooth" });
+       window.scrollTo({ top: 3000, left: 0, behavior: "smooth" });
      };
      const gotoReview = () => {
-       window.scrollTo({ top: 4300, left: 0, behavior: "smooth" });
+       window.scrollTo({ top: 4000, left: 0, behavior: "smooth" });
      };
      
      const gotoContact = () => {
@@ -50,7 +50,7 @@ const Nav = () => {
          <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
            <NavLink
              className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
-             onClick={gotoAbout}
+             onClick={gotoMenu}
              to="/home"
            >
              OUR MENU
@@ -60,7 +60,7 @@ const Nav = () => {
          <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
            <NavLink
              className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
-             onClick={gotoService}
+             onClick={gotoAbout}
              to="/home"
            >
              ABOUT
@@ -124,7 +124,7 @@ const Nav = () => {
 
      return (
           <div className='sticky top-0 z-50 header'>
-              <div className="">
+              <div className="gupter-regular ">
         {/* ////////////////new nav  */}
 
         <nav className="lg:bg-gray-100 shadow-lg border-l-gray-100 p-4" >

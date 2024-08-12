@@ -19,7 +19,7 @@ import {
 } from "swiper/modules";
 const Review = () => {
   return (
-    <div>
+    <div className='gupter-regular '>
 
       <h2
         style={{ lineHeight: "120%" }}

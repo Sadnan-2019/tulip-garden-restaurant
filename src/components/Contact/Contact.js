@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className=" bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]">
+      <div className="gupter-regular  bg-gradient-to-r from-[#017445] via-[#160a2c] to-[#EF932A]">
       <section class=" ">
           <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6   lg:px-8">
             <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">

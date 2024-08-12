@@ -4,7 +4,7 @@ import "./Video.css"
 const Video = () => {
     return (
         <div>
-            <div className="py-10">
+            <div className="py-10 gupter-regular ">
       <div className="py-10  ">
         <div class="  flex   flex-col md:flex-row  justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16    px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
           <div data-aos="fade-right" class="sm:w-1/2 relative">
@@ -28,9 +28,9 @@ const Video = () => {
               Learn More
             </a> */}
           </div>
-          <div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
+          <div data-aos="  " class="sm:w-1/2 relative mt-10 sm:mt-0">
             <div class="floating bg-[#08513D] w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
-            <img class="rounded-xl z-40 relative" src={teacher} alt="" />
+            <img data-aos="zoom-out-up" class="rounded-xl z-40 relative" src={teacher} alt="" />
             <button class="bg-[#08513D]  w-14 h-14 animate-pulse rounded-full flex items-center justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 focus:outline-none   transition hover:scale-110 duration-300 ease-in-out z-50">
               <svg
                 class="w-5 h-5 ml-1"

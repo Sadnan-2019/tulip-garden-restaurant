@@ -12,7 +12,7 @@ import food9 from "../../assets/clients6.jpg";
 import food10 from "../../assets/clients7.png";
 const Clients = () => {
     return (
-        <div className=' '>
+        <div className='gupter-regular  '>
             <h2
         style={{ lineHeight: "120%" }}
         className="py-8 animated slide-text text-[25px] lg:text-[40px] font-bold   text-center mt-8   text-transparent bg-clip-text bg-gradient-to-r from-[#0b281c] to-[#e97f06] "
