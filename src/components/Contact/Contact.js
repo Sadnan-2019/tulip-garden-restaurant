@@ -35,22 +35,22 @@ const Contact = () => {
                     <div class="border-t border-gray-200 px-6 py-4">
                       <h3 class="text-lg font-medium text-gray-100">Hours</h3>
                       <p class="mt-1 text-gray-100">
-                        Saturday: 09:00am - 06:00pm
+                        Saturday: 10:00am - 11:00pm
                       </p>
                       <p class="mt-1 text-gray-100">
-                        Sunday: 09:00am - 06:00pm
+                        Sunday: 10:00am - 11:00pm
                       </p>
                       <p class="mt-1 text-gray-100">
-                        Monday: 09:00am - 06:00pm
+                        Monday: 10:00am - 11:00pm
                       </p>
                       <p class="mt-1 text-gray-100">
-                        Tuesday: 09:00am - 06:00pm
+                        Tuesday: 10:00am - 11:00pm
                       </p>
                       <p class="mt-1 text-gray-100">
-                        Wednesday: 09:00am - 06:00pm
+                        Wednesday: 10:00am - 11:00pm
                       </p>
                       <p class="mt-1 text-gray-100">
-                        Thursday: 09:00am - 06:00pm
+                        Thursday: 10:00am - 11:00pm
                       </p>
                     </div>
                     <div class="border-t border-gray-200 px-6 py-4">
