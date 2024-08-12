@@ -21,7 +21,7 @@ const Review = () => {
   return (
     <div className='gupter-regular '>
 
-      <h2
+      <h2 data-aos="zoom-out-up"
         style={{ lineHeight: "120%" }}
         className="animated slide-text text-[25px] lg:text-[40px] font-bold   text-center mt-8   text-transparent bg-clip-text bg-gradient-to-r from-[#0b281c] to-[#e97f06] "
       >
